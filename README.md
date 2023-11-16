@@ -74,7 +74,8 @@ Publish the website in the given URL.
   </body>
 </html>
 
-PRODUCTS.HTML
+PRODUCTS.HTML:
+
 <!DOCTYPE html>
 <html lang="en">
   <head>
@@ -193,6 +194,7 @@ PRODUCTS.HTML
 </html>
 
 PEOPLE.HTML:
+
 <!DOCTYPE html>
 <html lang="en">
   <head>
@@ -268,6 +270,7 @@ PEOPLE.HTML:
 </html>
 
 CONTACT.HTML:
+
 <!DOCTYPE html>
 <html lang="en">
   <head>
