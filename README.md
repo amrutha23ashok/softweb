@@ -28,17 +28,18 @@ Validate the HTML code.
 Publish the website in the given URL.
 
 ## PROGRAM:
+Home.html
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <title>Zafran Beauty Collage</title>
+    <title> Home </title>
     <link rel="stylesheet" href="./css/layout.css" />
-    <link rel="icon" href="./img/logo.jpeg" type="image/x-icon" />
+    <link rel="icon" href="./img/icon.png" type="image/x-icon" />
   </head>
 
   <body>
     <div class="container">
-      <div class="banner">Zafran Beauty Collage</div>
+      <div class="banner"> DG Private Limited.</div>
       <div class="menu">
         <div class="menuitemselected"><a href="/static/home.html">Home</a></div>
         <div class="menuitem"><a href="/static/products.html">Products</a></div>
@@ -48,45 +49,255 @@ Publish the website in the given URL.
       <div class="content">
         <div class="homecontent">
           <h1>About Us</h1>
-          <img src="./img/logo.jpeg" alt="Building" />
+          <img src="./img/building.png" alt="Building" />
           <div class="contenttext">
-            At Zafran Beauty Collage,we believe in making the best.
-            oral care, skin care, sun care, hair care, decorative cosmetics,
-            body care and perfumes.Our main motto is to 
-            produce good products with best quality at an affordable price. 
+            At Tally, we believe in the power of technology to make business
+            owners efficient, empowered and happier, so they can focus on what
+            matters most for their business. We design our products to focus on
+            just that to make our products work for you, and not the other way
+            around.
             <br />
-            Our company mainly focus on giving the best product for the customers.
-            We have collabed with one of the top companies like Lakme,
-            Mamaearth and Dazller.We are proud to start our company in India. We 
-            assure you for the brand and quality. 
+            Our new product TallyPrime takes this to a new level, making your
+            start to automation, or your switch to Tally simpler than ever
+            before. You can now discover the product much more easily and make
+            the product do more for you, without learning anything new. There is
+            greater flexibility as the product adapts to your business and your
+            way of working. And the transformed look and feel will only make you
+            love the product even more.
             <ul>
-              <li>Comfy</li>
-              <li>Affordable</li>
-              <li>Customer satisfaction matters the most</li>
+              <li>Simple to learn, easier to use</li>
+              <li>Insightful , actionable & customizable reports</li>
+              <li>Anywhere, anytime and secure access</li>
             </ul>
           </div>
         </div>
       </div>
       <div class="footer">
-        Copyright &#169; Zafran Beauty Collage, Developed by Abrin Nisha.
+        Copyright &#169; 2021 DG Private Limited, Developed by Gopika.
       </div>
     </div>
-  </body>
+  </body>
 </html>
 
-PRODUCTS.HTML:
+People.html
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>
+            People
+        </title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="/static/css/styles.css">
+        <style>
+        .home{
+            height: 3000px;
+            width: 85%;
+            border: 12px solid purple;
+            padding-left:10px;
+            padding-right:10px;
+            margin-left: auto;
+            margin-right:auto;
+            background-color:cyan;
+        }
+        .text{
+        color:whitesmoke;
+        font-family:'Lucida sans';
+        font-size: 30px;
+        text-align:center;
+        
+        }
+        .content{
+            border:2px solid green;
+            background-color:purple;
+            width:98%;
+            height:2690px;
+            padding:10px;
+            margin-left:auto;
+            margin-right:auto;
+        }
+        .ceoph{
+            background-image: url(/static/img/5.jpg);
+            background-size: 250px;
+            background-position-x: center;
+            background-repeat: no-repeat;
+            border:3px solid black;
+            height:280px;
+            width:18%;
+            position:relative;
+            left: 0px;
+            margin-left:auto;
+            margin-right: auto;
+        }
+        .ceo{
+            color:cyan;
+            position:relative;
+            text-align:center;
+            
+            
+        }
+        .manph1{
+            background-image: url(/static/img/1.jpg);
+             background-size: 250px;
+            background-position-x: center;
+            background-repeat: no-repeat;
+            border:3px solid black;
+            height:280px;
+            width:18%;
+            position:relative;
+            margin-left:auto;
+            margin-right:auto;            
+        }
+        .man1{
+            color:cyan;
+            position:relative;
+            text-align:center;
+            
+        }
+        .manph2{
+            background-image: url(/static/img/2.jpg);
+            background-size: 250px;
+            background-position-x: center;
+            background-repeat: no-repeat;
+            border:3px solid black;
+            height:280px;
+            width:18%;
+            position:relative;
+            margin-left:auto;
+            margin-right:auto;
 
+            
+        }
+        .man2{
+            color:cyan;
+            position:relative;
+            text-align:center;
+        }
+        
+        .amph1{
+            background-image: url(/static/img/3.jpg);
+            background-size: 250px;
+            background-position-x: center;
+            background-repeat: no-repeat;
+            border:3px solid black;
+            height:280px;
+            width:18%;
+            position:relative;
+            margin-left:auto;
+            margin-right:auto;
+
+            
+        }
+        .am1{
+            color:cyan;
+            position:relative;
+            text-align:center;
+        }
+
+        .amph2{
+            background-image: url(/static/img/4.jpg);
+            background-size: 250px;
+            background-position-x: center;
+            background-repeat: no-repeat;
+            border:3px solid black;
+            height:280px;
+            width:18%;
+            position:relative;
+            margin-left:auto;
+            margin-right:auto;
+
+            
+        }
+        .am2{
+            color:cyan;
+            position:relative;
+            text-align:center;
+        }
+        .amph3{
+            background-image: url(/static/img/6.jpg);
+            background-size: 250px;
+            background-position-x: center;
+            background-repeat: no-repeat;
+            border:3px solid black;
+            height:280px;
+            width:18%;
+            position:relative;
+            margin-left:auto;
+            margin-right:auto;
+
+            
+        }
+        .am3{
+            color:cyan;
+            position:relative;
+            text-align:center;
+        }
+        </style>
+    </head>
+    <body>
+        <div class="home">
+            <div class="header">
+                <header>
+                    <div class=logo></div>
+                    <div class=h>
+                    <a href="home.html" title="Home" style="color: darkred; text-decoration: none;"><b>Home</b></a></div>
+                    <div class="prod">
+                        <a href="products.html" title="Products" style="color:darkred; text-decoration: none;"><b>Products</b></a>
+                    </div>
+                    <div class="people">
+                        <a href="people.html" title="People" style="color: darkred; text-decoration: none;"><b>People</b></a>
+                    </div>
+                    <div class="contact">
+                        <a href="contact.html" title="Contact Us" style="color: darkred; text-decoration: none;"><b>Contact Us</b></a>
+                    </div>
+                </header>
+                <div class="title">
+                    <h1>People</h1>
+                </div><br>
+                <div class="content">
+                    <div class="text">
+                    <p>Board Members</p>
+                    <h4><u>Chairman</u></h4>
+                    </div>
+                    <div class="ceoph"></div>
+                    <div class="ceo"><p align="center"><b><h2> Gopika </h2></b></div>
+                    <br>
+                    <div class="text">
+                        <p><b><u>Head executives</u></b></p><br>
+                    </div>
+                    <div class="manph1"></div>
+                    <div class="man1"><p align="center"><b><h2> Swetha </h2></b></p></div>
+                    <div class="manph2"></div>
+                    <div class="man2"><p><b><h2> Thilagavathi </h2></b></p></div>
+                    <br>
+                    <div class="text"><p><b><u>Managers</u></b></p></div><br>
+                    <div class="amph1"></div>
+                    <div class="am1"><p align="center"><b><h2> Varsha</h2></b></p></div>
+                    <div class="amph2"></div>
+                    <div class="am2"><p align="center"><b><h2> Harini </h2></b></p></div>
+                    <div class="amph3"></div>
+                    <div class="am3"><p align="center"><b><h2> Vidhiya</h2></b></p></div><br>
+                    <div class="text">Thank you so much for your kind support!<br>Hope our products had made you more B-E-A-U-T-I-F-U-L!</div>
+                </div>
+                <div class="footer">
+                <footer style="color:black">
+                Copyright &copy;2023 Developed by Gopika </footer></div>
+            </div>
+        </div>
+    </body>
+</html>
+
+Products.html
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <title>Zafran Beauty Collage</title>
+    <title> Products </title>
     <link rel="stylesheet" href="./css/layout.css" />
-    <link rel="icon" href="./img/logo.jpeg type="image/x-icon" />
+    <link rel="icon" href="./img/icon.png" type="image/x-icon" />
   </head>
 
   <body>
     <div class="container">
-      <div class="banner">Zafran Beauty Collage</div>
+      <div class="banner"> DG Private Limited.</div>
       <div class="menu">
         <div class="menuitem"><a href="/static/home.html">Home</a></div>
         <div class="menuitemselected">
@@ -101,216 +312,184 @@ PRODUCTS.HTML:
           <div class="productitems">
               <div class="productitem"> 
                   <div class="itemimage">
-                  <img src="/static/img/cetaphil.webp" alt="product image">
+                  <img src="/static/img/tally_gold.png" alt="product image">
                   </div>
-                  <div class="itemname">Cetaphil</div>
-                  <div class="itemprice">Price: Rs.2500 </div>
+                  <div class="itemname">Tally Gold</div>
+                  <div class="itemprice">Price: Rs.40,000.00 </div>
               </div>
               <div class="productitem"> 
                   <div class="itemimage">
-                  <img src="/static/img/coco.jpg"  alt="product image">
+                  <img src="/static/img/tally_silver.png"  alt="product image">
                   </div>
-                  <div class="itemname">Parachute Body lotion</div>
-                  <div class="itemprice">Price: Rs.5,000.00 </div>
-              </div>
-              <div class="productitem"> 
-                  <div class="itemimage">
-                  <img src="/static/img/cream.jpg"  alt="product image">
-                  </div>
-                  <div class="itemname">Nivea</div>
-                  <div class="itemprice">Price: Rs.2,000.00 </div>
-              </div>
-              <div class="productitem"> 
-                  <div class="itemimage">
-                  <img src="/static/img/dazller.webp"  alt="product image">
-                  </div>
-                  <div class="itemname">Dazller</div>
-                  <div class="itemprice">Price: Rs.7,000.00 </div>
-              </div>
-              <div class="productitem"> 
-                  <div class="itemimage">
-                  <img src="/static/img/kajal.webp"  alt="product image">
-                  </div>
-                  <div class="itemname">Maybelline Newyork</div>
-                  <div class="itemprice">Price: Rs.7000.00 </div>
-              </div>
-              <div class="productitem"> 
-                  <div class="itemimage">
-                  <img src="/static/img/lipbalm.webp"  alt="product image">
-                  </div>
-                  <div class="itemname">Arrah</div>
-                  <div class="itemprice">Price: Rs.3,000.00 </div>
-              </div>
-              <div class="productitem"> 
-                  <div class="itemimage">
-                  <img src="/static/img/mamaearth.jpg"  alt="product image">
-                  </div>
-                  <div class="itemname">Mamaearth</div>
-                  <div class="itemprice">Price: Rs.5,000.00 </div>
-              </div>
-              <div class="productitem"> 
-                  <div class="itemimage">
-                  <img src="/static/img/nivea.jpg"  alt="product image">
-                  </div>
-                  <div class="itemname">Nivea</div>
-                  <div class="itemprice">Price: Rs.3,500.00 </div>
-              </div>
-              <div class="productitem"> 
-                  <div class="itemimage">
-                  <img src="/static/img/nykaa.jpg"  alt="product image">
-                  </div>
-                  <div class="itemname">Nykaa</div>
-                  <div class="itemprice">Price: Rs.5,000.00 </div>
-              </div>
-              <div class="productitem"> 
-                  <div class="itemimage">
-                  <img src="/static/img/olay.png"  alt="product image">
-                  </div>
-                  <div class="itemname">Olay</div>
-                  <div class="itemprice">Price: Rs.7,000.00 </div>
-              </div>
-              <div class="productitem"> 
-                  <div class="itemimage">
-                  <img src="/static/img/ponds.jpg"  alt="product image">
-                  </div>
-                  <div class="itemname">Ponds</div>
-                  <div class="itemprice">Price: Rs.8,000.00 </div>
-              </div>
-              <div class="productitem"> 
-                  <div class="itemimage">
-                  <img src="/static/img/spinz.jpg"  alt="product image">
-                  </div>
-                  <div class="itemname">Spinz</div>
-                  <div class="itemprice">Price: Rs.2,800.00 </div>
+                  <div class="itemname">Tally Silver</div>
+                  <div class="itemprice">Price: Rs.10,000.00 </div>
               </div>
           </div>
           </div>        
       </div>
       <div class="footer">
-        Copyright &#169; Zafran Beauty Collage, Developed by Abrin Nisha.
+        Copyright &#169; 2021 DG Private Limited, Developed by Gopika.
       </div>
     </div>
-  </body>
+  </body>
 </html>
-
-PEOPLE.HTML:
-
+Contact.html
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <title>Zafran Beauty Collage</title>
-    <link rel="stylesheet" href="./css/layout.css">
-    <link rel="icon" href="./img/banner1.jpg" type="image/x-icon"/>
-  </head>
+    <head>
+        <title>
+            Contact Us
+        </title>
+        <meta name="viewport" 
+         content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="/static/css/styles.css">
+    <style>
+        
+    .content{
+            border:2px solid green;
+            background-color:purple;
+            width:98%;
+            height:500px;
+            padding:10px;
+            margin-left:auto;
+            margin-right:auto;
+    }
+    
+    .text{
+        color:whitesmoke;
+        font-family:'Lucida Sans';
+        font-size: 30px;
+        text-align:center;
+    }
+    
+    
+    </style>
 
-  <body>
-    <div class="container">
-      <div class="banner">Zafran Beauty Collage</div>
-      <div class="menu">
-        <div class="menuitemselected"><a href="/home/">Home</a></div>
-        <div class="menuitemselected"><a href="/products/">Products</a></div>
-        <div class="menuitemselected"><a href="/people/">People</a></div>
-        <div class="menuitemselected"><a href="/contactus/">Contact Us</a></div>
-      </div>
-      <div class="content">
-        <div class="productcontent">   
-          <h1>CEO of the Brand</h1>
-          <div class="productitems">
-              <div class="productitem">
-                  <div class="itemimage">
-                  <img src="/static/img/ceo keerthi.jpg" alt="product image">
-                  </div>
-                  <div class="itemname">Keerthi shetty</div>
-                  <div class="itemprice">President & CEO of Lakme</div>
-              </div>
-              <div class="productitem">
-                  <div class="itemimage">
-                  <img src="/static/img/nazi.jpg"  alt="product image">
-                  </div>
-                  <div class="itemname">Nazriya</div>
-                  <div class="itemprice">Founder & CEO of Mamaearth</div>
-              </div>
-              <div class="productitem">
-                  <div class="itemimage">
-                  <img src="/static/img/priya.jpg" alt="product image">
-                  </div>
-                  <div class="itemname">Priya Bhavanisankar</div>
-                  <div class="itemprice">CEO of Ponds</div>
-              </div>
-              <div class="productitem">
-                  <div class="itemimage">
-                  <img src="/static/img/kalyani.jpg" alt="product image">
-                  </div>
-                  <div class="itemname">Kalyani</div>
-                  <div class="itemprice">Ambassador of Lakme</div>
-              </div>
-              <div class="productitem">
-                  <div class="itemimage">
-                  <img src="/static/img/img3.jpg" alt="product image">
-                  </div>
-                  <div class="itemname">Alia Bhatt</div>
-                  <div class="itemprice">Ambassador of Mamaearth</div>
-              </div>
-              <div class="productitem">
-                  <div class="itemimage">
-                  <img src="/static/img/img4.jpg" alt="product image">
-                  </div>
-                  <div class="itemname">Kajal Aharwal</div>
-                  <div class="itemprice">Ambassador of Ponds</div>
-              </div>
+    </head>
+    <body>
+        <div class="home">
+            <div class="header">
+                <header>
+                    <div class=logo></div>
+                    <div class=h>
+                    <a href="home.html" title="Home" style="color: darkred; text-decoration: none;"><b>Home</b></a></div>
+                    <div class="prod">
+                        <a href="products.html" title="Products" style="color: darkred; text-decoration: none;"><b>Products</b></a>
+                    </div>
+                    <div class="people">
+                        <a href="people.html" title="People" style="color:darkred; text-decoration: none;"><b>People</b></a>
+                    </div>
+                    <div class="contact">
+                        <a href="contact.html" title="Contact Us" style="color:darkred; text-decoration: none;"><b>Contact Us</b></a>
+                    </div>
+                </header>
+                <div class="title">
+                    <h1>Contact Us</h1>
+                </div><br>
+                <div class="content">
+                    <div class="text">
+                    <p><b>Here are the details about us
+                    <h5>Do contact us for any need</h5></b></p>
+                    
+                    </div>
+                    <b><h2>Contact Information:</h2></b>
+                    <p><b>&emsp;&ensp;Address:</b>
+                        No:15, New Street, West Tambaram, Chennai.
+                    </p>
+                    <ul>
+                        <li><b>Landline:</b> 214567654564 </li>
+                        <li><b>Mobile</b>: 8167875321</li>
+                        <li><b>Facebook</b>: fb/DGtally</li>
+                        <li><b>Email Id:</b>DG@fancyuniv.com</li>
+                    </ul>
+                    <div style="text-align: center;color:violet;font-size:20px;"><b>Use Our Services and Beautify Yourself!</b></div>
 
-          </div>
-          </div>       
-      </div>
-      <div class="footer">
-        Copyright &#169; Zafran Beauty Collage, Developed by Abrin Nisha
-      </div>
-    </div>
-  </body>
-</html>
-
-CONTACT.HTML:
-
-<!DOCTYPE html>
-<html lang="en">
-  <head>
-    <title>Zafran Beauty Collage</title>
-    <link rel="stylesheet" href="./css/layout.css" />
-    <link rel="icon" href="./img/logo.jpeg" type="image/x-icon" />
-  </head>
-
-  <body>
-    <div class="container">
-      <div class="banner">Zafran Beauty Collage</div>
-      <div class="menu">
-        <div class="menuitemselected"><a href="/static/home.html">Home</a></div>
-        <div class="menuitem"><a href="/static/products.html">Products</a></div>
-        <div class="menuitem"><a href="/static/people.html">People</a></div>
-        <div class="menuitem"><a href="/static/contacts.html">Contact us</a></div>
-      </div>
-      <div class="content">
-        <div class="homecontent">
-          <h1>About Us</h1>
-       
-          <div class="contenttext">
-           Mail us at  Zafrananddesign@gmail.com
-           <br>
-           Contact us at 9635874125
-           <br>
-           Our main office is at 5th car street,TamilNadu,India.
-          </div>
+                </div>
+                <div class="footer">
+                <footer style="color:black">
+                Copyright &copy;2023 Developed by Gopika </footer></div>
+            </div>
         </div>
-      </div>
-      <div class="footer">
-        Copyright &#169; Zafran Beauty Collage, Developed by Abrin Nisha.
-      </div>
-    </div>
-  </body>
+    </body>
+    <!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>
+            Contact Us
+        </title>
+        <meta name="viewport" 
+         content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="/static/css/styles.css">
+    <style>
+        
+    .content{
+            border:2px solid green;
+            background-color:purple;
+            width:98%;
+            height:500px;
+            padding:10px;
+            margin-left:auto;
+            margin-right:auto;
+    }
+    
+    .text{
+        color:whitesmoke;
+        font-family:'Lucida Sans';
+        font-size: 30px;
+        text-align:center;
+    }
+    
+    
+    </style>
+
+    </head>
+    <body>
+        <div class="home">
+            <div class="header">
+                <header>
+                    <div class=logo></div>
+                    <div class=h>
+                    <a href="home.html" title="Home" style="color: darkred; text-decoration: none;"><b>Home</b></a></div>
+                    <div class="prod">
+                        <a href="products.html" title="Products" style="color: darkred; text-decoration: none;"><b>Products</b></a>
+                    </div>
+                    <div class="people">
+                        <a href="people.html" title="People" style="color:darkred; text-decoration: none;"><b>People</b></a>
+                    </div>
+                    <div class="contact">
+                        <a href="contact.html" title="Contact Us" style="color:darkred; text-decoration: none;"><b>Contact Us</b></a>
+                    </div>
+                </header>
+                <div class="title">
+                    <h1>Contact Us</h1>
+                </div><br>
+                <div class="content">
+                    <div class="text">
+                    <p><b>Here are the details about us
+                    <h5>Do contact us for any need</h5></b></p>
+                    
+                    </div>
+                    <b><h2>Contact Information:</h2></b>
+                    <p><b>&emsp;&ensp;Address:</b>
+                        No:15, New Street, West Tambaram, Chennai.
+                    </p>
+                    <ul>
+                        <li><b>Landline:</b> 214567654564 </li>
+                        <li><b>Mobile</b>: 8167875321</li>
+                        <li><b>Facebook</b>: fb/DGtally</li>
+                        <li><b>Email Id:</b>DG@fancyuniv.com</li>
+                    </ul>
+                    <div style="text-align: center;color:violet;font-size:20px;"><b>Use Our Services and Beautify Yourself!</b></div>
+
+                </div>
+                <div class="footer">
+                <footer style="color:black">
+                Copyright &copy;2023 Developed by Gopika </footer></div>
+            </div>
+        </div>
+    </body>
 </html>
-
-
-
-
+    
 ## OUTPUT:
 HOME PAGE:
 ![image](https://github.com/amrutha23ashok/softweb/assets/120772913/2c721329-b371-40c1-b4ff-2b26f614facf)
